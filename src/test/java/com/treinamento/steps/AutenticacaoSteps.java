@@ -18,7 +18,7 @@ public class AutenticacaoSteps {
 
     @Given("^que eu acessei a plataforma$")
     public void acessarSiteDaAlura() throws Exception {
-        this.loginPage.navigateTo("https://www.alura.com.br/");
+        this.loginPage.navigateTo("http://www.alura.com.br/");
     }
 
     @When("^eu logar na plataforma com o usuário \"([^\"]*)\" e senha \"([^\"]*)\"$")
